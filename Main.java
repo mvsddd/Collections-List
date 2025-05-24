@@ -76,6 +76,7 @@ public class Main {
                             if (s.toLowerCase().equals(taskToDelete.toLowerCase())) {
                                 iterator.remove();
                                 System.out.println("Удалено!");
+                                break;
                             }
                         }
                     } else {
